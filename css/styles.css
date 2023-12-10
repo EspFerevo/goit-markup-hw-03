@@ -277,9 +277,12 @@ img {
 .footer {
   background-color: #2e2f42;
   color: white;
+  padding: 100px 0;
 }
 .footer .studio-color {
   color: #f4f4fd;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -290,4 +293,5 @@ img {
   font-weight: 400;
   line-height: 1.5em; /* 150% */
   letter-spacing: 0.32px;
+  max-width: 264px;
 }
