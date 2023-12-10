@@ -209,10 +209,13 @@ img {
 .section-team {
   background-color: #f4f4fd;
   color: #2e2f42;
+  padding: 120px 0;
+  display: flex;
 }
 
 .team-member {
   background-color: white;
+  gap: 24px;
 }
 .text-team {
   text-align: center;
@@ -222,6 +225,7 @@ img {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .manager-name {
   color: #2e2f42;
@@ -229,6 +233,8 @@ img {
   font-weight: 500;
   line-height: 1.2em; /* 120% */
   letter-spacing: 0.4px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .position {
   color: #434455;
@@ -236,6 +242,7 @@ img {
   font-weight: 400;
   line-height: 1.5em; /* 150% */
   letter-spacing: 0.32px;
+  text-align: center;
 }
 /*Portfolio section*/
 .portfolio {
