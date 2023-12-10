@@ -305,11 +305,13 @@ img {
 /*footer sections*/
 .footer {
   background-color: #2e2f42;
-  color: white;
   padding: 100px 0;
 }
 .footer .studio-color {
   color: #f4f4fd;
+}
+
+.web-color {
   display: inline-block;
   margin-bottom: 16px;
 }
