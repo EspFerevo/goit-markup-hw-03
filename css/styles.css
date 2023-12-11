@@ -54,8 +54,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-nav {
@@ -74,6 +72,9 @@ img {
   line-height: 1.5em; /* 150% */
   letter-spacing: 0.32px;
   color: #2e2f42;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .address-ul {
@@ -94,7 +95,6 @@ img {
 
 .studio-color {
   color: #2e2f42;
-  margin-right: 76px;
 }
 
 .link:hover,
@@ -320,7 +320,6 @@ img {
 
 .footer-text {
   color: #f4f4fd;
-  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-size: 16px;
   font-weight: 400;
