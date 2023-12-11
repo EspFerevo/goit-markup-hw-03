@@ -51,6 +51,10 @@ img {
 }
 .header-container {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-nav {
@@ -60,7 +64,6 @@ img {
 
 .header-link {
   display: flex;
-  margin-right: 332px;
   gap: 40px;
 }
 
@@ -70,8 +73,6 @@ img {
   line-height: 1.5em; /* 150% */
   letter-spacing: 0.32px;
   color: #2e2f42;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .address-ul {
@@ -311,7 +312,7 @@ img {
   color: #f4f4fd;
 }
 
-.web-color {
+.footer .web-color {
   display: inline-block;
   margin-bottom: 16px;
 }
